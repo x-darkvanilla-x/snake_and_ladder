@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="game.css">
+</head>
+
+<body onclick="mouse_clicked()">
+
+    <div class="shade"></div>
+
+    <div class="score">
+        <p style="background-color: yellow; text-align: center;">Scoreboard</p>
+        <br>
+        <p>PLayer 1 : <span id="score1">0</span></p>
+        <p>PLayer 2 : <span id="score2">0</span></p>
+    </div>
+
+    <div class="board" id="board">
+        <div id="player1" class="player1">
+            <span id="player1_coin">1</span>
+        </div>
+        <div id="player2" class="player2">
+            <span id="player2_coin">2</span>
+        </div>
+        <div class="dice" id="dice_box">
+            <div class="inner_dice" id="dice_img"></div>
+        </div>
+        <div class="dice2" id="dice2_box">
+            <div class="inner_dice2" id="dice2_img"></div>
+        </div>
+    </div>
+
+    <div id="message1">Player 1 Won</div>
+    <div id="message2">Player 2 Won</div>
+    
+
+</body>
+
+<script src="game.js"></script>
+
+</html>
