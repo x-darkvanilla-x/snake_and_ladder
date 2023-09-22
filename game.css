@@ -180,11 +180,25 @@ body
 		100%	{ background-color: #04a1d5;}
 }
 
+
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     body
     {
         zoom: 60%;        
+    }
+
+    .dice
+    {
+        left: 0px;
+        top: 500px;
+    }
+
+    .dice2
+    {
+        left: 400px;
+        top: -100px;
     }
 }
 
@@ -194,6 +208,18 @@ body
     {
         zoom: 60%;        
     }
+
+    .dice
+    {
+        left: 0px;
+        top: 500px;
+    }
+
+    .dice2
+    {
+        left: 400px;
+        top: -100px;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -202,6 +228,18 @@ body
     {
         zoom: 100%;        
     }
+
+    .dice
+    {
+        left: 0px;
+        top: 500px;
+    }
+
+    .dice2
+    {
+        left: 400px;
+        top: -100px;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -209,6 +247,18 @@ body
     body
     {
         zoom: 100%;        
+    }
+
+    .dice
+    {
+        left: -100px;
+        top: 400px;
+    }
+
+    .dice2
+    {
+        left: 500px;
+        top: 0px;
     }
 }
 
